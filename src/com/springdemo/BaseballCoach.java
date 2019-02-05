@@ -11,11 +11,12 @@ public class BaseballCoach implements Coach {
     public BaseballCoach() {
     }
 
-    @Autowired
+    /*@Autowired
+
     public BaseballCoach(FortuneService fortuneService) {
         this.fortuneService = fortuneService;
     }
-
+*/
     @Override
     public String getDailyWorkout() {
         return "Throw the ball as far as you can :P";
